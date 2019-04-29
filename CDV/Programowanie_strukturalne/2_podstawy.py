@@ -64,4 +64,3 @@ print(dzien,miesiac,rok, sep=" c=3 ")
 
 
 print()
-
