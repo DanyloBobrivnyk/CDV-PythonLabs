@@ -28,6 +28,6 @@ lista = ['a','b','c','d','q','e','quit','end']
 for element in lista:
     if element == 'quit':#|| element == 'q' || element == 'end':
         break
-        else
-        print(element,end = ' ')
+    else:
+        print(element,end = " ")
 
