@@ -30,3 +30,4 @@ for element in lista:
         break
         else
         print(element,end = ' ')
+
