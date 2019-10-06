@@ -43,4 +43,4 @@ k=''
 if k:
     print("zawiera dane")
 else:
-print("brak danych")
+    print("brak danych")

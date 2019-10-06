@@ -39,7 +39,6 @@ if klucz in pracownik1:
     print(f'Klucz {klucz} został usunięty')
 else:
     print(f'Klucz {klucz} nie został usunięty')
-
 print('\n')
 
 print(pracownik1.keys())
@@ -53,4 +52,4 @@ for value in pracownik1.values():
 print('\n')
 
 for key,value in pracownik1.items():
-print(f'{key}:{value}')
+    print(f'{key}:{value}')

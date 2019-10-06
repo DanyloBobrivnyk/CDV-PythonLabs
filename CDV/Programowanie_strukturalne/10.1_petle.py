@@ -11,7 +11,7 @@ if y>x:
     x = y + 1
     y = pom - 1
 
-for number in range(x, y, -1):
+for number in range(x, y,- 1):
     #print(number,end=' ')
     print(f'{number}',end =' ')
     #print(f'->:{number}')
@@ -74,14 +74,14 @@ print("->Koniec programu !")
 #################
 import os
 os.system('cls')
-proba = 0
-while (proba < 3):
-    proba = proba + 1
+proby = 0
+while (proby < 3):
+    proby = proby + 1
     password = input('Podaj haslo: ')
     if(password == 'okon'):
-        print(f"Podales prawidlowe haslo za {proba} razy !")
+        print(f"Podales prawidlowe haslo za {proby} razy !")
         break
-    if(proba == 0):
+    if(proby == 0):
         print("Limit prob zostal skonczony!")
     else:
         continue

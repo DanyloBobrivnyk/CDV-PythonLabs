@@ -25,12 +25,12 @@ print("Długosc nazwiska : " + dlugosc)
 
 #Uzytkownik wpisuje z klawy swoj wiek
 #wyswietl dane w formacie : Twoj wiek:.. lat
-print ("\nWpisz swój wiek: ", end="")
+print ("\nWpisz swój wiek: ", end="-> ")
 wiek = input()
 print(type(wiek))
 wiek= str(wiek)
-print("Twój wiek: " + wiek +" lat")
-#print("Twój wiek: " , wiek ," lat")
+print("Sposób + Twój wiek: " + wiek +" lat")
+print("Sposób , Twój wiek: " , wiek ," lat")
 
 nazwisko = "Kowalski"
 pierwszyZnak = nazwisko[0]

@@ -31,7 +31,7 @@ print(f'Id USD: {id(kursUSD)}')
 def plnToUSD(value):
 #kursUSD = 3.7899
     iloscUSD = value / kursUSD
-    ilocsEur = "{0:.4f}".format(iloscUSD)
+    ilocsUSD = "{0:.4f}".format(iloscUSD)
     print(f'Id USD wewnątrz funkcji:{id(kursUSD)}')
     return iloscUSD
 

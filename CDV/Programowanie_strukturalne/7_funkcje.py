@@ -40,7 +40,9 @@ print(iloraz1)
 def wypisz(dane):
     for key, value in dane.items():
         print(f'{key}:{value}')
-
+def consoleout(dane):
+    for key, value in dane.items():
+        print(f'{key}: {dane}')
 
 def zrobauto():
     print('Podaj marke')

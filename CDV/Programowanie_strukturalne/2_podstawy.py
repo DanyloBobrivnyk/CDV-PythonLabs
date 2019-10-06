@@ -1,5 +1,5 @@
 tekst ="Anna, paweł, TomEK"
-tab = tekst.split(", ")
+tab = tekst.split(",")
 print(tekst)
 print(tab)#rozpatrz
 print(type(tab)) #list
@@ -60,7 +60,7 @@ print(dzien,miesiac,rok)
 
 
 print("Data: ",end="")
-print(dzien,miesiac,rok, sep=" c=3 ")
+print(dzien,miesiac,rok, sep=" oraz ")
 
 
 print()
