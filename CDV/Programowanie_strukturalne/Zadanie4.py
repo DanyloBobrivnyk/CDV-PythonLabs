@@ -1,4 +1,4 @@
-l1iczba=[]
+liczba=[]
 buffer = 0
 liczba = input('Podaj liczbe:')
 for i in range(0,len(liczba)):
