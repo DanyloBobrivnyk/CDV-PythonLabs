@@ -1,2 +1,2 @@
-# CDV
-//branch rabota dla groop ? 
+# CDV-PythonLabs
+Podstawy języka Python.
